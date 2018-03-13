@@ -27,9 +27,6 @@ kapt {
     correctErrorTypes = true
 }
 apply plugin: 'kotlin-android-extensions'
-androidExtensions {
-    experimental = true
-}
 
 apply plugin: 'com.getkeepsafe.dexcount'
 dexcount {
